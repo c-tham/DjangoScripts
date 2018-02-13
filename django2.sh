@@ -22,7 +22,7 @@ then
     cd $pname/apps
     #******************************
     echo "** [1] Insert codes into view.py at $pname/apps/$aname"
-    echo 'from django.shortcuts import render, HttpResponse, redirect' >> $aname/views.py
+    echo 'from django.shortcuts import HttpResponse, redirect' >> $aname/views.py
     echo ' ' >> $aname/views.py
     echo 'def index(request):' >> $aname/views.py
     echo '    context = {' >> $aname/views.py
