@@ -25,6 +25,8 @@ Two OSX shell scripts (1) django1.sh and (2) django2.sh
 (3) Errors
 
 * You must manual insert codes for "project-name"/setting.py file and "project-name"/urls.py file.
+* If you have more than one "app-name", you need to update the "project-name"/urls.py file. Tips, the Regular Expression in the file.
+
 
 
 
